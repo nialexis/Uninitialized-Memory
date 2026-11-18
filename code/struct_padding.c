@@ -10,7 +10,7 @@ __attribute__((noinline)) void dirty_stack(void) {
 }
 
 __attribute__((noinline)) void show_struct(void) {
-    struct S s1;               // padding never written
+    struct S s1;              
     s1.a = 'X'; 
     s1.b = 42;
     unsigned char *p = (unsigned char *)&s1;
