@@ -1,0 +1,18 @@
+# Compiled programs
+*_O0
+*_O1
+*_O2
+*_o0
+*_o2
+stack_leak
+heap_reuse
+struct_padding
+
+*.dSYM/
+
+
+.DS_Store
+
+*.o
+
+/*.s
